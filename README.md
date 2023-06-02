@@ -1,6 +1,6 @@
 # Experincing Mapas (With Spline)
 
-This project was initially started with simple CSS models of DIT buildings but then the scope is enhanced with blender's 3D models.  [basic starting blender base model](https://drive.google.com/file/d/1BGvMYc8sp0-gtqKWEWi4V7BrXi-lJ6C5/view?usp=sharing).
+This project was initially started with simple CSS models of DIT buildings but then the scope is enhanced with blender's 3D models.  [A basic starting blender base model](https://drive.google.com/file/d/1BGvMYc8sp0-gtqKWEWi4V7BrXi-lJ6C5/view?usp=sharing).
 
 ## Phase 2(The wiser & wider scope)
 
