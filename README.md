@@ -8,7 +8,7 @@ This project was initially started with simple CSS models of DIT buildings but t
 Merely started in the mid of April, I already started collecting photos of buildings, rooms, floors from different corners of college. All this for creating 3D models with blender
 
 ### `Spline`
-I chose spline cause it's easy here to just make your model just like blender and the import it in your react code using spline react viewer tool. 
+I chose spline cause it's easy here to just make your model just like blender and import it in your react code using spline react viewer tool. 2nd and most important factor is that u don't have to learn the fng complex 3JS just to display a model in your webpage.
 Spline really got my back and I have made 80% models with spline again. Why again; cause blender models sucked in case of size and takes around 3-4 sec to load just 1 model at a time (I'm taking the case when internet speed is pretty good). Now just think of those poor connections.NIGHTMARES!! 
 
 To solve this problem , I had to revisit every element of the imported blender model to spline and take out the abnormal one and make it again from spline. 
