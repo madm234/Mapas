@@ -1,0 +1,528 @@
+@media (max-width: 1000px) {
+    .vedStyle{
+        margin-top:12rem;
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width: 1001px) {
+    .vedStyle{
+        margin-top:12rem;
+        /* margin-left: 8rem; */
+    }
+}
+
+@media (min-width: 601px) {
+    .vedp{
+        margin-top: 6rem;
+        font-family: 'Poppins'; 
+        color: #163a7a;
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .vedanta_desc{
+        /* display: flex; */
+        /* justify-content: center; */
+        /* margin-bottom: 400px; */
+        /* margin-left: 90px; */
+    }
+
+    #roof{
+        position: relative;
+        list-style: none;
+        width: 400px;
+        background-color: #6c3c36;
+        transform: skewY(-15deg);
+        padding: 10px;
+    }
+
+
+   .floor{
+        position: relative;
+        list-style: none;
+        width: 400px;
+        height: 50px;
+        background-color: #6c3c36;
+        transform: skewY(-15deg);
+        padding: 10px;
+    }
+    
+    #ground{
+        position: relative;
+        list-style: none;
+        background-color: #6c3c36;
+        width: 400px;
+        height: 50px;
+        background-color: transparent;
+        transform: skewY(-15deg);
+        padding: 10px;
+    }
+
+    .build_block_left{
+        position: absolute;
+        background-color:rgb(248, 207, 158);
+        width: 35%;
+        height: 30%;
+        bottom: 0;
+        left: 0;
+    }
+
+    #roof .build_block_left{
+        width: 100%;
+        height: 40%;
+    }
+
+    .build_block_right{
+        position: absolute;
+        background-color:rgb(248, 207, 158);
+        width: 35%;
+        height: 30%;
+        bottom: 0;
+        right: 0;
+    }
+
+    .build_block_side{
+        position: absolute;
+        background-color:rgb(248, 207, 158);
+        width: 25%;
+        height: 30%;
+        bottom: 0;
+        right: 0;
+    }
+
+    #roof .build_block_side{
+        width: 34%;
+        height: 40%;
+    } 
+
+    .build_wind_side{
+        position: absolute;
+        height: 35%;
+        width: 45px;
+        background-color: rgb(2, 25, 50);
+        right: 5px;
+        /* top: 10px; */
+        z-index: -1;
+    }
+
+    .build_wind_side .wind_stripes_v3{
+        left: 45%;
+    }
+
+    .build_wind_left{
+        position: absolute;
+        height: 35%;
+        width: 100px;
+        background-color: rgb(2, 25, 50);
+        left: 2px;
+        top: 0;
+    }
+
+    .wind_stripes_v1{
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: rgb(214, 182, 143);
+        left: 30%;
+    }
+
+    .wind_stripes_v2{
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: rgb(201, 173, 139);
+        right: 30%;
+    }
+
+    .wind_stripes_v3{
+        position: absolute;
+        width: 1px;
+        height: 80%;
+        background-color: rgb(201, 173, 139);
+        left: 50%;
+        bottom: 0;
+    }
+
+    .wind_stripes_h{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: rgb(201, 173, 139);
+        top: 20%;
+        /* right: 30%; */
+    }
+    
+
+
+    .build_wind_mid{
+        position: absolute;
+        height: 35%;
+        width: 100px;
+        background-color: rgb(2, 25, 50);
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+    }
+
+    .build_wind_right{
+        position: absolute;
+        height: 35%;
+        width: 100px;
+        background-color: rgb(2, 25, 50);
+        right: 2px;
+        top: 0;
+    }
+
+
+    .build_name{
+        position: absolute;
+        background-color:rgb(248, 207, 158);
+        width: 100%;
+        height: 40%;
+        bottom: 0;
+        left: 0;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #6c3c36;
+    }
+        
+    .side_floor{
+        position: absolute;
+        top: 0;
+        background-color: #6c3c36;
+        width: 150px;
+        height: 100%;
+        left: -150px;
+        transform-origin: right;
+        transform: skewY(30deg);
+        display: flex;
+        justify-content: center;
+    }
+
+    #ground .side_floor{
+        width: 100px;
+        /* right: -40px; */
+        top: -42%;
+    }
+
+    .side_build_name{
+        width: 50px;
+        height: 40%;
+        background-color:rgb(248, 207, 158);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .Libside{
+        position: absolute;
+        width: 40%;
+        background-color: #6c3c36;
+        height: 60%;
+        bottom: 0;
+        left: -40%;
+    }
+
+    .GLibside{
+        position: absolute;
+        width: 60%;
+        background-color: rgb(229 200 166);
+        height: 100%;
+        bottom: 0;
+        left: -60%;
+    }
+
+
+    .last_side{
+        position: absolute;
+        width: 85%;
+        height: 100%;
+        background-color: #6c3c36;
+        left: -125%;
+    }
+
+    #groundToground .last_side{
+        position: absolute;
+        width: 128%;
+        height: 100%;
+        background-color: #6c3c36;
+        left: -188%;
+    }
+
+    .yellow_paint{
+        position: absolute;
+        width:30%;
+        right: 19%;
+        height: 100%;
+        background-color: rgb(229 200 166);
+    }
+
+    .side_yellow_paint{
+        position: absolute;
+        width:32%;
+        left: 0;
+        height: 40%;
+        top: 0;
+        background-color: rgb(229 200 166);
+    }
+
+    .window{
+        position: absolute;
+        height: 100%;
+        width: 45px;
+        background-color: rgb(2, 25, 50);
+        left: 30%;
+        /* border-left: solid 0.1px white;
+        border-right: solid 0.1px white; */
+    }
+
+    .roof_side_side{
+        position: absolute;
+        width: 85%;
+        height: 100%;
+        background-color: #6c3c36;
+        left: -125%;
+    }
+
+    .cover_side{
+        position: absolute;
+        width: 30%;
+        height: 100%;
+        background-color:#724742;
+        right: -30%;
+        top: 0;
+        transform-origin: left;
+        transform: skewY(-30deg);
+    }
+
+    .cvrSide{
+        position: absolute;
+        width: 57%;
+        height: 100%;
+        background-color:#66423d;
+        right: -57%;
+        top: 0;
+        transform-origin: left;
+        transform: skewY(34deg);
+    }
+
+    #roofia_cvr{
+        width: 140%;
+        right: -140%;
+    }
+
+    .uppercover_floor{
+        position: absolute;
+        background-color: #512c28;
+        width: 102%;
+        height: 1315%;
+        left: 0;
+        top: -1315%;
+        transform-origin: bottom;
+        transform: skewX(124deg);
+    }
+
+    .roof_side_side .upper_floor{
+        transform: skewX(-60deg);
+        height: 1215%;
+        top: -1215%;
+        width: 337px;
+    }
+
+    #g_window{
+        height: 60%;
+        left: 45%;
+    }
+
+    /* #f_window{
+        height: 60%;
+        bottom: 0;
+    } */
+
+    #r_window{
+        height: 60%;
+        bottom: 0;
+    }
+
+    .window .fv_line{
+        position: absolute;
+        width: 0.3px;
+        height: 100%;
+        background-color: white;
+        left: 30%;
+    }
+
+    .window .sv_line{
+        position: absolute;
+        width: 0.3px;
+        height: 100%;
+        background-color: white;
+        right: 30%;
+    }
+
+    .window .fh_line{
+        position: absolute;
+        width: 100%;
+        height: 0.3px;
+        background-color: white;
+        top: 30%;
+    }
+
+    .window .sh_line{
+        position: absolute;
+        width: 100%;
+        height: 0.3px;
+        background-color: white;
+        bottom: 20%;
+    }
+
+    #g_window .sh_line{
+        bottom: 0;
+    }
+
+    #r_window .fh_line{
+        top: 0;
+    }
+
+    .upper_floor{
+        position: absolute;
+        background-color: #512c28;
+        width: 100%;
+        height: 85px;
+        left: 0;
+        top: -85px;
+        transform-origin: bottom;
+        transform: skewX(60deg);
+    }
+
+    .base_floor{
+        position: absolute;
+        background-color: #868282;
+        width: 100%;
+        height:85px;
+        left: 0;
+        top: 355px;
+        transform-origin: bottom;
+        transform: skewX(60deg);
+    }
+
+    .covering{
+        position: absolute;
+        height: 13%;
+        width: 100%;
+        background-color: rgb(248, 207, 158);
+        top:-13%;
+        left: 0; 
+    }
+
+    .pillar{
+        position: absolute;
+        height: 100%;
+        width: 30px;
+        background-color: rgb(248, 207, 158);
+        top:0;
+    }
+
+    .side_pillar{
+        z-index: -132;
+        position: absolute;
+        top: 0;
+        background-color: rgb(205, 175, 137);
+        width: 15px;
+        height: 100%;
+        left: -15px;
+        transform-origin: right;
+        transform: skewY(30deg);
+    }
+
+    #p1{
+        left: 0;
+    }
+
+    #p2{
+        left: 100px;
+    }
+
+    #p3{
+        left: 200px;
+    }
+
+    #p4{
+        left: 300px;
+    }
+
+    #p5{
+        left: 390px;
+    }
+
+    /* .bottom_floor{
+        position: absolute;
+        background-color: #512c28;
+        width: 100%;
+        height: 46px;
+        left: 0;
+        bottom: 0;
+        transform-origin: bottom;
+        transform: skewX(60deg);
+        z-index: -17;
+    } */
+
+
+    /* #floor3:hover{
+        transform: rotateZ(180deg);
+    } */
+
+    .floor:hover .build_wind_mid{
+        background-color: rgb(236, 236, 111);
+    }
+
+    .floor:hover .build_wind_left{
+        background-color: rgb(236, 236, 111);
+    }
+
+    .floor:hover .build_wind_right{
+        background-color: rgb(236, 236, 111);
+    }
+
+    .floor:hover .build_wind_side{
+        background-color: rgb(236, 236, 111);
+    }
+
+    .floor:hover .wind_stripes_v1{
+        background-color: black;
+    }
+
+    .floor:hover .wind_stripes_v2{
+        background-color: black;
+    }
+
+    .floor:hover .wind_stripes_v3{
+        background-color: black;
+    }
+
+    .floor:hover .wind_stripes_h{
+        background-color: black;
+    }
+
+    .floor:hover .window{
+        background-color: rgb(172, 166, 172);
+    }
+    .floor:hover .fv_line{
+        background-color: black;
+    }
+    .floor:hover .sv_line{
+        background-color: black;
+    }    .floor:hover .fh_line{
+        background-color: black;
+    }    .floor:hover .sh_line{
+        background-color: black;
+    }
+}

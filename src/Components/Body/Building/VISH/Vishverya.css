@@ -1,0 +1,226 @@
+@media (max-width: 600px) {
+    .vishStyle{
+        margin-left: -18rem !important;
+        margin-bottom: 5rem !important;
+    }
+
+    .vish_desc{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* padding: 20px; */
+    transform: rotate(2deg);
+    margin-left:50%;
+}
+
+.colonial{
+    margin-top:2rem;
+    font-family: 'Poppins'; 
+    color: #163a7a;
+    font-weight: 600;
+    /* font-size: 2rem; */
+    text-align: end;
+    padding-right: 2rem;
+}
+
+.vish_floor{
+    position: relative;
+    list-style: none;
+    width: 150px;
+    height: 30px;
+    transform: skewY(-15deg);
+    background-color: rgb(216, 192, 161);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.v_floor_side{
+    position: absolute;
+    transform: skewY(10deg);
+    width: 180px;
+    height: 100%;
+    background-color: rgb(247, 220, 186);
+    top: 0;
+    transform-origin: left;
+    right: -180px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.half_red_block{
+    /* top: 0;*/
+    position: relative;
+    width: 5px;
+    height: 28px; 
+    background-color: #6c3c36;
+    /* left: 0;
+    margin-right: 10px; */
+}
+
+.last_end_vblock .half_red_block{
+    width: 4px;
+}
+
+.half_red_sideblock{
+    /* top: 0;*/
+    position: relative;
+    width: 6px;
+    height: 28px; 
+    background-color: #6c3c36;
+    /* left: 0;
+    margin-right: 10px; */
+}
+
+.vbuild_wind_left{
+    position: absolute;
+    height: 35%;
+    width: 8px;
+    background-color: rgb(2, 25, 50);
+    left: 7px;
+    top: 0;
+}
+
+.last_end_vblock .vbuild_wind_side{
+    position: absolute;
+    height: 35%;
+    width: 4px;
+    background-color: rgb(2, 25, 50);
+    left: 5px;
+    top: 35%;
+}
+
+.down{
+    position: absolute;
+    height: 35%;
+    width: 8px;
+    background-color: rgb(2, 25, 50);
+    left: 7px;
+    top: 65%;
+}
+
+.half_red_sideblock .vbuild_wind_left{
+    left: 9px;
+    width: 10px;
+}
+
+.half_red_sideblock .down{
+    position: absolute;
+    height: 40%;
+    width: 10px;
+    background-color: rgb(2, 25, 50);
+    left: 9px;
+    top: 60%;
+}
+
+.last_end_vblock{
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    transform-origin: left;
+    right: -30px;
+    background-color: rgb(247, 220, 186);
+    transform: skewY(-55deg);
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#vish_floor5{
+    border-top: solid 7px #6c3c36; 
+}
+
+.roof_railing{
+    position: absolute;
+    width: 100%;
+    background-color: #6c3c36;
+    height: 7px;
+    top: -7px;
+    border-bottom:solid 1px rgb(247, 220, 186);
+    z-index: 124;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.v_roof{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(202, 209, 209);
+    top: -44.6px;
+    transform-origin: left;
+    right: -15px;
+    transform: skewX(-38deg);
+}
+
+.v_roof .roof_railing{
+    position: absolute;
+    width: 100%;
+    background-color: #6c3c36;
+    height: 7px;
+    top: -5.094px;
+    border:none;
+    transform: skewX(40deg);
+    left: 1px;
+    display: flex;
+    align-items: center;
+    /* left: 120px; */
+}
+
+.v_roof .roof_railing_side{
+    position: absolute;
+    width: 7px;
+    left: -2px;
+    height: 107%;
+    top: -2px;
+    background-color: #6c3c36;
+    /* top: -3.094px; */
+    border:none;
+    transform: skewY(43deg);
+    /* transform: rotateY(2deg); */
+    /* left: -1px; */
+    /* left: 120px; */
+}
+
+.v_roof_side .roof_railing{
+    position: absolute;
+    width: 101%;
+    background-color: #6c3c36;
+    height: 7px;
+    left: -3px;
+    top: -5.6px;
+    border:none;
+    transform: skewX(35deg);
+    /* left: 120px; */
+} 
+
+.v_roof_side{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(202, 209, 209);
+    top: -50px;
+    transform-origin: left;
+    right: -13px;
+    transform: skewX(-34deg);
+}
+
+.vish_name{
+    color: rgb(247, 220, 186) ;
+    font-size: 20% ;
+    position:absolute;
+    left:2%;
+    font-family:monospace;
+}
+
+.vish_ground{
+    box-shadow: 4px 4px 6px 1.2px black;
+}
+}
+
+.vish_floor:hover .vbuild_wind_left,.vish_floor:hover .down,.vish_floor:hover .vbuild_wind_side{
+    background-color: rgba(3, 50, 55, 0.719);
+}
+
+.vish_floor:hover .wind_stripes_v1,.vish_floor:hover .wind_stripes_v2,.vish_floor:hover .wind_stripes_h{
+    background-color: rgb(253, 206, 151);
+}

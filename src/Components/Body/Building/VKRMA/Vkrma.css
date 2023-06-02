@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    .vkrma{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 200px;
+        transform: rotate(2deg);
+        margin-left: 7px;
+    }
+    
+    .vkrma_floor{
+        position: relative;
+        list-style: none;
+        width: 150px;
+        height: 30px;
+        transform: skewY(-15deg);
+        background-color: rgb(49, 33, 11);
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+}

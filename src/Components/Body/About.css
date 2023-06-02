@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+.about-box{
+    border-radius: 4rem;
+    height: auto;
+    background-color: #FFFBF5;
+    color: black;
+    padding: 0 3rem 4rem;
+    margin: 0 4rem;
+    margin-top: 20rem;
+    position: relative;
+}
+
+.about-head{
+    font-family: 'Work Sans', sans-serif;
+    padding: 2rem 0 3rem 0;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-desc{
+    font-family: 'Poppins'; 
+    font-size: 1.2rem;
+}
+
+.abtPartition{
+    display: flex;
+}
+
+#spaceimg{
+    display: none;
+}
+
+.contiBtnBox{
+    margin-top: 1rem;
+}
+
+.btnContibute{
+    font-family: 'Poppins'; 
+    font-weight: 900;
+    font-size: 0.8rem;
+    padding: 5px 7px;
+    border: solid 1px #0b6d6f;
+    color: #0b6d6f;
+    border-radius: 5px;
+    background-color: #FFFBF5;
+}
+
+.btnContibute:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: #0b6d6f;
+}
+
+.sickoMode{
+    margin-left: 3rem;
+}
+
+.abtGIF{
+    /* overflow-y: hidden; */
+}
+
+.abtGIF img{
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+@media (max-width: 1250px) {
+    .abtPartition{
+        flex-wrap: wrap;
+    }
+
+    .abtGIF{
+       margin: 0rem auto 1rem;
+    }
+
+    .sickoMode{
+        margin-left: 0rem;
+    }
+
+    .contiBtnBox{
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .abtGIF{
+        display: none;
+     }
+}
+
+@media (max-width: 600px) {
+    .about-head{
+    font-size: 44px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    }
+
+    .about-box{
+        border-radius: 7rem 7rem 2rem 2rem;
+        height: auto;
+        background-color: #FFFBF5;
+        color: black;
+        padding: 0 2rem 2rem;
+        margin: 14rem 1rem 5rem;
+    }
+
+    .about-desc{
+        font-family: 'Poppins'; 
+        font-size: 1rem;
+    }
+
+    #spaceimg{
+        display: block;
+        position: absolute;
+        width: 8rem;
+        top: -10%;
+        left: 0;
+        transform: rotate(40deg);
+    }
+
+    .btnContibute{
+        border: solid 1px #540550;
+        color: #540550;
+    }
+    
+    .btnContibute:hover{
+        background-color: #540550;
+    }
+    
+}

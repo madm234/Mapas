@@ -1,0 +1,465 @@
+@media (max-width: 600px) {
+
+.vastStyle{
+    margin-top: 15rem !important;
+    /* margin-bottom: 12rem; */
+    margin-left: 2rem !important;
+}   
+
+.vastu_desc{
+    margin-top: 55%;
+    margin-left: 30%;
+}
+
+.vasp{
+    margin-top: 2rem;
+    font-family: 'Poppins'; 
+    color: #163a7a;
+    font-weight: 600;
+    text-align: center;
+}
+
+.vas_floor{
+    position: relative;
+    list-style: none;
+    width: 200px;
+    background-color: #6c3c36;
+    transform: skewY(-10deg);
+    padding: 15px;
+    border-bottom: solid rgb(245, 216, 180) 2px;
+    height: 15px;
+}
+
+#vas_floor3{
+    border-top: solid rgb(245, 216, 180) 3px;
+    border-bottom:hidden;
+}
+
+.vas_side_bord{
+    /* border-top: solid rgb(245, 216, 180) 1px; */
+}
+
+.vas_floor3_border{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(245, 216, 180);
+    bottom: 0;
+    left: 0;
+}
+
+.vas_floor .build_wind_left{
+    position: absolute;
+    height: 35%;
+    width: 20px;
+    background-color: rgb(2, 25, 50);
+    left: 2px;
+    top: 0;
+}
+
+.vas_big_window{
+    position: absolute;
+    width: 60px;
+    height: 43px;
+    background-color:rgb(2, 25, 50) ;
+    top: 0;
+    left: 32%;
+    /* right: 50%; */
+    /* margin: auto; */
+    border-top: solid 2px rgb(245, 216, 180);
+    border-left: solid 2px rgb(245, 216, 180);
+    border-right: solid 2px rgb(245, 216, 180);
+    /* overflow-y: hidden; */
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto; */
+    display: flex;
+}
+
+.vas_win_floor2{
+    height: 22px;
+    border-top: none;
+    border-bottom: solid 2px rgb(245, 216, 180);
+    overflow-y: hidden;
+}
+
+.wind_strip{
+    /* position: absolute; */
+    background-color: rgb(123, 122, 122);
+    margin-left: 5px;
+    width: 1px;
+    height: 44px;
+}
+
+.hwind_strip{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 6px;
+    background-color: rgb(123, 122, 122);
+}
+
+.vas_st_2{
+    top: 14px;
+}
+
+.vas_st_3{
+    top: 22px;
+}
+
+.vas_st_4{
+    top: 29px;
+}
+
+.vas_st_5{
+    top: 36px;
+}
+
+.vas_st_6{
+    top: 0px;
+}
+
+.vas_st_7{
+    top: 14px;
+}
+
+.vas_st_8{
+    top: 20px;
+}
+
+.wind_pillar{
+    width: 3px;
+    height: 100%;
+    background-color: rgb(245, 216, 180);
+    position: absolute;
+    left: 4px;
+    border-radius: 1px 1px 0 0 ;
+}
+
+.pillar2{
+    left: 52px;
+}
+
+.vas_win_floor2 .wind_pillar{
+    border-radius: 0 0 1px 1px;
+}
+
+.vas_side{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color: #6c3c36;
+    left: -15%;
+    top: 0;
+    border-bottom: solid 3px rgb(245, 216, 180);
+    transform-origin: right;
+    transform: skewY(45deg);
+    /* overflow-x: hidden; */
+}
+
+.vas_side_bord{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(245, 216, 180);
+    top: -3px;
+}
+
+#vas_side_bord_noine{
+    top: 24%;
+}
+
+.vas_side2{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: #6c3c36;
+    left: -90%;
+    /* top: 0; */
+    /* border-bottom: solid 3px rgb(245, 216, 180); */
+    transform-origin: right;
+    transform: skewY(-16deg);
+}
+
+.vas_side2_side{
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    background-color: #6c3c36;
+    left: -110%;
+    transform-origin: right;
+    /* transform: skewY(-6deg); */
+    /* overflow-x: hidden; */
+}
+
+.half_border_window{
+    position: absolute;
+    width: 13px;
+    height: 1px;
+    background-color:rgb(245, 216, 180);
+    left: 0;
+    top: 50%;
+}
+
+.vas_side .half_border_window{
+    width: 7px;
+    left: 3px;
+}
+
+.half_border_window2{
+    position: absolute;
+    width: 14%;
+    height: 52%;
+    background-color:rgb(245, 216, 180);
+    left: 18px;
+    top: 0;
+}
+
+.half_border_window3{
+    position: absolute;
+    width: 14%;
+    height: 52%;
+    background-color:rgb(245, 216, 180);
+    /* left: 0px; */
+    right: 9px;
+    top: 0;
+}
+
+.vas_sin_window{
+    position: absolute;
+    width: 10px;
+    height: 50%;
+    background-color: rgb(2, 25, 50);
+    left: 3px;
+    top: 0;
+}
+
+.vas_side .vas_sin_window{
+    width: 7px;
+}
+
+.vas_floor .wind_stripes_v1{
+    position: absolute;
+    width: 1px;
+    height: 40%;
+    background-color: rgb(126, 124, 124);
+    left: 40%;
+}
+
+.vas_floor .wind_stripes_v2{
+    position: absolute;
+    width: 1px;
+    height: 60%;
+    background-color: rgb(125, 123, 123);
+    right: 20%;
+    bottom: 0;
+}
+
+.vas_floor .wind_stripes_v3{
+    position: absolute;
+    width: 1px;
+    height: 60%;
+    background-color: rgb(116, 114, 114);
+    left: 20%;
+    bottom: 0;
+}
+
+.vas_floor  .wind_stripes_h{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(123, 122, 122);
+    top: 40%;
+    /* right: 30%; */
+}
+
+.vas_right_bord{
+    /* width: 10px;
+    height: 2px;
+    background-color:rgb(245, 216, 180); */
+    left: 15px;
+    /* top: 35%; */
+}
+
+.vas_right_win{
+    left: 15px;
+}
+
+.rand_border{
+    position: absolute;
+    width: 142%;
+    height: 1px;
+    background-color:rgb(245, 216, 180);
+    bottom: -1px;
+}
+
+.half_border_winow .ar1{
+    left: 0;
+    height: 97%;
+    width:45%;
+}
+
+.half_border_winow .ar2{
+    left: 55%;
+    height: 97%;
+    width: 45%;
+}
+
+.half_border_window2 .ar2 .wind_stripes_v3{
+    left: 50%;
+}
+
+.vas_sing_win{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    background-color: rgb(2, 25, 50);
+    left: 3px;
+    /* top: 0; */
+}
+
+.vas_1sing_win{
+    position: relative;
+    width: 55%;
+    height: 50%;
+    background-color: rgb(2, 25, 50);
+    /* left: 2px; */
+    /* top: 0; */
+}
+
+.vas_1sing_win .wind_stripes_v3{
+    left: 50%;
+}
+
+.vas_downfloor{
+    padding: 0;
+    height: 55px;
+    width: 230px;
+    transform-origin: center;
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+    column-gap: 2px;
+}
+
+.vas_win_first{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -1px;
+    background-color:rgb(245, 216, 180);
+}
+
+.vas_win_second{
+    position: absolute;
+    width: 242%;
+    height: 1px;
+    bottom: -1px;
+    background-color:rgb(245, 216, 180);
+}
+
+.vas_win_third{
+    position: absolute;
+    width: 384%;
+    height: 1px;
+    bottom: -1px;
+    background-color:rgb(245, 216, 180);
+}
+
+.vas_win_lastm{
+    position: absolute;
+    width: 384%;
+    height: 1px;
+    bottom: -1px;
+    background-color:rgb(245, 216, 180);
+}
+
+.vas_ground_fl{
+    border-bottom: none;
+}
+
+.vas_ground_fl .vas_side{
+    border-bottom: none;
+}
+
+.vas_side_bod{
+    border-bottom: solid 3px rgb(245, 216, 180);
+    /* background-color: rgb(245, 216, 180); */
+}
+
+#vas_elevator{
+    height: 140%;
+    bottom: 0;
+}
+
+.vas_rooof{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(245, 216, 180);
+    top: -5px;
+}
+.vas_big_rooof{
+    position: absolute;
+    width: 100%;
+    background-color: #b34853;
+    height: 20px;
+    top: -25px;
+    transform-origin: bottom;
+    transform: skewX(50deg);
+}
+
+.another_vas_roof{
+    position: absolute;
+    width: 101%;
+    background-color: #b34853;
+    height: 63%;
+    top: -63%;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    right: 0;
+    border-radius: 1px;
+}
+
+.another_vas_roof2{
+    position: absolute;
+    width: 100%;
+    background-color: #b34853;
+    height: 133%;
+    top: -133%;
+    transform-origin: bottom;
+    transform: skewX(22deg);
+    right: 0;
+    /* border-radius: 1px; */
+}
+
+.vas_floor:hover .vas_sing_win{
+    background-color: rgb(236, 236, 111);
+}
+
+.vas_floor:hover .vas_sin_window{
+    background-color: rgb(236, 236, 111);
+}
+
+.vas_floor:hover .wind_stripes_v1{
+    background-color: black;
+}
+
+.vas_floor:hover .wind_stripes_v2{
+    background-color: black;
+}
+
+.vas_floor:hover .wind_stripes_v3{
+    background-color: black;
+}
+
+.vas_floor:hover .wind_stripes_h{
+    background-color: black;
+}
+
+.vas_floor:hover .half_border_window2{
+    background-color: rgb(71, 60, 47);
+}
+
+.vas_floor:hover .half_border_window3{
+    background-color: rgb(71, 60, 47);
+}
+}

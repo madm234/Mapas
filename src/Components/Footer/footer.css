@@ -1,0 +1,39 @@
+.footCont{
+    /* height: 4rem; */
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #290227;
+    margin-top: 5rem;
+    color: white;
+    font-family: Poppins;
+    padding: 1rem;
+}
+
+.manga{
+    display: none;
+    width: 2.7rem;
+    border-radius: 1.4rem;
+}
+.vanga{
+    display: block;
+    width: 3rem;
+    border-radius: 1.2rem;
+}
+
+#prjctProfImg{
+    width: 12%;
+    border-radius: 2rem;
+}
+
+.brandHover:hover{
+    color: #ffa600 !important;
+}
+
+@media(max-width:600px) {
+    .vanga{
+        display: none;
+    }
+    .manga{
+        display: block;
+    }
+}

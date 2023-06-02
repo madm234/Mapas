@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.navbar{
+    padding: 17px 0 0;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-ul li{
+    text-align: center;
+    list-style: none;
+    color: black;
+    /* font-weight:600; */
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    cursor:default;
+    font-family: 'Poppins';
+}
+
+#dicordLogo{
+    z-index: -1;
+    position: absolute;
+    right: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor:default;
+    /* transition: ease-in-out 0.1s; */
+}
+
+.theme{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.redirect-items:hover{
+    background-color: #48565c;
+}
+
+.theme2{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+@media (max-width: 600px) {
+    .nav-ul{
+        justify-content: flex-end;
+        color: white;
+        padding: 0 12px;
+    }
+
+    .nav-ul li{
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .redirect-items:hover{
+        background-color: #541482;
+    }
+
+    .theme{
+        top: 13px;
+    }
+
+    a{
+        color: white;
+    }
+
+    .theme2{
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .theme{
+        display: none;
+    }
+
+    .nav-ul{
+        justify-content: center;
+    }
+}

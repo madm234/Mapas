@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    /* scroll-behavior: smooth; */
+    transition: all 0.3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html { background-attachment: fixed; }
+
+body{
+    background: url(/public/Images/wall.jpg) #546366 fixed; 
+    background-size: cover;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main{
+    min-height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.theme img{
+    position: absolute;
+    z-index: -1;
 }
 
-.App-link {
-  color: #61dafb;
+::selection{
+    color: pink;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fixBuidButton{
+    position: absolute;
+   padding: 0.5rem;
+    background-color: #41494b;
+    top: 25%;
+    transform: rotate(90deg);
+    left: -1.8rem;
+    border-radius: 0.4rem;
+    color: white;
+    z-index: 1;
+    font-size: 0.9rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fadeBackground{
+    position: fixed;
+    /* z-index: 1; */
+    background-color: #3a3d3db8;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+@media (max-width: 400px) {
+    body{
+        background: url(/public/Images/2713203.jpg) #020031 fixed no-repeat;
+        background-size: cover;
+        background-size:30rem 60rem;
+    }
+}
+
+@media (max-width: 600px) {    
+    .main{
+    min-height: 100vh;
+    }
 }

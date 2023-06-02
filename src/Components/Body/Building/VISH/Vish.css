@@ -1,0 +1,218 @@
+@media (max-width: 1000px) {
+    .vishStyle{
+        margin-left: -35rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media (min-width: 1001px) {
+    .vishStyle{
+        margin-left: -57rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media (min-width: 601px) {
+    .vish_desc{
+        transform: rotate(2deg);
+        margin-left:50%;
+    }
+
+    .colonial{
+        margin-top:4rem;
+        font-family: 'Poppins'; 
+        color: #163a7a;
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: end;
+        padding-right: 10%;
+    }
+    
+    .vish_floor{
+        position: relative;
+        list-style: none;
+        width: 400px;
+        height: 65px;
+        transform: skewY(-10deg);
+        background-color: rgb(228, 203, 169);
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    
+    .v_floor_side{
+        position: absolute;
+        transform: skewY(10deg);
+        width: 500px;
+        height: 100%;
+        background-color: rgb(247, 220, 186);
+        top: 0;
+        transform-origin: left;
+        right: -500px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    
+    .half_red_block{
+        /* top: 0;*/
+        position: relative;
+        width: 25%;
+        height: 95%; 
+        background-color: #6c3c36;
+        /* left: 0;
+        margin-right: 10px; */
+    }
+    
+    .last_end_vblock .half_red_block{
+        width: 6px;
+    }
+    
+    .half_red_sideblock{
+        /* top: 0;*/
+        position: relative;
+        width: 20%;
+        height: 95%; 
+        background-color: #6c3c36;
+        /* left: 0;
+        margin-right: 10px; */
+    }
+    
+    .vbuild_wind_left{
+        position: absolute;
+        height: 40%;
+        width: 24px;
+        background-color: rgb(2, 25, 50);
+        top: 0;
+        left: 18px;
+    }
+    
+    .last_end_vblock .vbuild_wind_side{
+        position: absolute;
+        height: 45%;
+        width: 12px;
+        background-color: rgb(2, 25, 50);
+        left: 8px;
+        top: 35%;
+    }
+    
+    .down{
+        position: absolute;
+        height: 35%;
+        width: 24px;
+        background-color: rgb(2, 25, 50);
+        left: 19px;
+        top: 65%;
+    }
+    
+    .half_red_sideblock .vbuild_wind_left{
+        left: 25px;
+        width: 25px;
+    }
+    
+    .half_red_sideblock .down{
+        position: absolute;
+        height: 35%;
+        width: 25px;
+        background-color: rgb(2, 25, 50);
+        left:25px;
+        top: 60%;
+    }
+    
+    .last_end_vblock{
+        position: absolute;
+        height: 100%;
+        width: 70px;
+        transform-origin: left;
+        right: -70px;
+        background-color: rgb(247, 220, 186);
+        transform: skewY(-55deg);
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    #vish_floor5{
+        border-top: solid 7px #6c3c36; 
+    }
+    
+    .roof_railing{
+        position: absolute;
+        width: 100%;
+        background-color: #6c3c36;
+        height: 25px;
+        top: -28px;
+        border-bottom:solid 4px rgb(247, 220, 186);
+        z-index: 124;
+        border-top:solid 2px rgb(247, 220, 186);
+        display: flex;
+        align-items: center;
+    }
+    
+    .v_roof{
+        position: absolute;
+        width: 100%;
+        height: 92px;
+        background-color: rgb(202, 209, 209);
+        top: -91px;
+        transform-origin: left;
+        right: -35px;
+        transform: skewX(-38deg);
+    }
+    
+    .v_roof .roof_railing{
+        position: absolute;
+        width: 101%;
+        background-color: #6c3c36;
+        height: 25px;
+        top: -24.8px;
+        border:none;
+        transform: skewX(40deg);
+        left: -14px;
+        /* left: 120px; */
+    }
+    
+    .v_roof .roof_railing_side{
+        position: absolute;
+        width: 25px;
+        left: -25px;
+        height: 100%;
+        top: -13px;
+        background-color: #6c3c36;
+        /* top: -3.094px; */
+        border:none;
+        transform: skewY(45deg);
+        border-top: 2px;
+        /* transform: rotateY(2deg); */
+        /* left: -1px; */
+        /* left: 120px; */
+    }
+    
+    .v_roof_side .roof_railing{
+        position: absolute;
+        width: 100%;
+        background-color: #6c3c36;
+        height: 25px;
+        left: -8px;
+        top: -25px;
+        border:none;
+        transform: skewX(35deg);
+        /* left: 120px; */
+    } 
+    
+    .v_roof_side{
+        position: absolute;
+        width: 100%;
+        height: 103px;
+        background-color: rgb(202, 209, 209);
+        top: -103px;
+        transform-origin: left;
+        right: -35px;
+        transform: skewX(-34deg);
+    }
+
+    .vish_name{
+        color: rgb(247, 220, 186) ;
+        font-size: 80% ;
+        position:absolute;
+        left:2%;
+        font-family:monospace;
+    }
+}

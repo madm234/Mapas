@@ -1,0 +1,334 @@
+@media (max-width: 1000px) {
+    .charakStyle{
+        margin-top: 27rem ;
+        margin-left: 21rem ;
+    }  
+}
+
+@media (min-width: 1001px) {
+    .charakStyle{
+        margin-top: 27rem ;
+        margin-left: 15rem;
+    }
+}
+
+.charak_cont{
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+.charakp{
+    margin-top:6rem;
+    font-family: 'Poppins'; 
+    color: #163a7a;
+    font-weight: 600;
+    /* font-size: 2rem; */
+    text-align: center;
+}
+
+.ch_floor{
+    list-style: none;
+    padding: 15px;
+    background-color: #6c3c36;
+    width: 250px;
+    height: 60px;
+    transform: skewY(-21deg);
+    border-top: #d7cfa4 solid 5px;
+}
+
+.roof_temp{
+    position: absolute;
+    width: 95%;
+    height: 15px;
+    background-color: #5b322d;
+    top: -17px;
+    right: 0;
+}
+
+.temp_room{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #6c3c36;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.ch_right_side{
+    position: absolute;
+    top: 0;
+    background-color: #6c3c36;
+    width: 100%;
+    height: 15px;
+    right: 0;
+    top: -17px;
+    transform-origin: right;
+    transform: skewY(40deg);
+    border-radius: 10px 0 0 10px;
+}
+
+.temp_room_side1{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: #6c3c36;
+    left: -30%;
+    transform-origin: right;
+    transform: skewY(40deg);
+    /* z-index: -11111; */
+}
+
+.roof_tempHalf{
+    position: absolute;
+    width: 5%;
+    height: 17px;
+    background-color: #d7cfa4;
+    top: -17px;
+    left: 0;
+}
+
+.chrk_side .roof_tempHalf{
+    width: 100%;
+}
+
+.chrk_stair .roof_temp{
+    width: 100%;
+}
+
+.ch_fifth_floor{
+    background: none;
+}
+
+.ch_fifth_floor .chrk_side{
+    background: none;
+}
+
+.ch_fifth_floor .pillar{
+    top: -5px;
+    width: 9px;
+}
+
+.ch_fifth_floor .side_pillar{
+    width: 9px;
+    left: -9px;
+}
+
+.ch_fourth_floor p{
+    font-size: 50%;
+    position: absolute;
+    top: 80%;
+    font-weight: 600;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.chrk_side{
+    position: absolute;
+    background-color: #6c3c36;
+    width: 30%;
+    height: 100%;
+    top: -5px;
+    left: -30%;
+    transform-origin: right;
+    transform: skewY(40deg);
+    border-top: #d7cfa4 solid 5px;
+}
+
+.chrk_side p{
+    right: 20%;
+    font-size: 55%;
+}
+
+.chrk_wnd1{
+    left:25px;
+    top: 25%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+.chrk_wnd2{
+    right:15%;
+    top: 25%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+.chrk_wndMid{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    left: 40%;
+    top: 25%;
+    height: 35%;
+    width: 6%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+.chrk_side .chrk_wnd2{
+    width: 36%;
+}
+
+.chrk_swndMid{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    left: 5%;
+    top: 25%;
+    height: 35%;
+    width: 12%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+
+.chrk_stair{
+    position: absolute;
+    width: 130%;
+    height: 120%;
+    background-color: #563531;
+    transform-origin: center;
+    transform: skewY(-47deg);
+    z-index: 11111;
+    left: -129%;
+    top: 48%;
+}
+
+.chrk_stair_roof{
+    position: absolute;
+    width: 100%;
+    height: 2084%;
+    top: -2081%;
+    background-color: #6b3731; 
+    transform-origin: bottom;
+    transform: skewX(40deg);
+}
+
+.ch_first_floor .chrk_stair{
+    border-top: #d7cfa4 solid 5px;
+}
+
+.chrk_roof{
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    background-color: #753d37;
+    top: -318.5%;
+    left: 0;
+    transform-origin: bottom;
+    transform: skewX(50deg);
+}
+
+/* .chrk_stair_side{
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    right: -150%;
+    background-color: red;
+    transform-origin: left;
+    transform: skewY(20deg);
+    top: -15px;
+    transform: rotateY(1160deg);
+} */
+
+.last_floor_side{
+    /* overflow-y: hidden; */
+}
+
+.chrk_win .sv_line{
+    right: 50%;
+}
+
+.chrk_win1 .sv_line{
+    right: 50%;
+}
+
+.chrk_win1{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    height: 30%;
+    bottom: 0;
+    width: 40%;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+    overflow-x: hidden;
+}
+
+.chrk_win{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    width: 40%;
+    overflow-x: hidden;
+}
+
+.chrk_side_view{
+ position: absolute;
+ width: 240%;
+ height: 100%;
+ background-color: #6c3c36;
+ left: -240%;  
+ transform-origin: right;
+ transform: skewY(50deg); 
+ border-top: #d7cfa4 solid 5px;
+ top: -5px;
+}
+
+.chrk_svwnd2{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    width: 14%;
+    border-bottom: #d7cfa4 solid 3px; 
+    right: 12%;
+}
+
+.chrk_side_view .chrk_wndMid{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    top: 0;
+    left: auto;
+    right: 45%;
+}
+
+.chrk_wndMid2{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    left: auto;
+    right: 65%;
+    top: 0;
+    height: 35%;
+    width: 6%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+.chrk_wndMid3{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    left: auto;
+    right: 75%;
+    top: 0;
+    height: 35%;
+    width: 6%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+.chrk_wndMid4{
+    position: absolute;
+    background-color: rgb(2, 25, 50);
+    left: auto;
+    right: 85%;
+    top: 0;
+    height: 35%;
+    width: 6%;
+    border-bottom: solid 3px #d7cfa4;
+}
+
+.ch_floor:hover .build_wind_side,.ch_floor:hover .chrk_wndMid,.ch_floor:hover .chrk_swndMid,.ch_floor:hover .chrk_wndMid,.ch_floor:hover .chrk_wndMid2,
+.ch_floor:hover .chrk_wndMid3,.ch_floor:hover .chrk_wndMid4{
+    background-color: rgb(236, 236, 111);
+}
+
+.ch_floor:hover .wind_stripes_v1,.ch_floor:hover .wind_stripes_v2,.ch_floor:hover .wind_stripes_v3,.ch_floor:hover .wind_stripes_h{
+    background-color: black;
+}
+
+.ch_floor:hover .chrk_win,.ch_floor:hover .chrk_win1{
+    background-color: rgba(177, 190, 190, 0.751);
+}
