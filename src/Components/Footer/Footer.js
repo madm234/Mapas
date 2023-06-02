@@ -26,7 +26,7 @@ const footer = () => {
                 </div>
 
                <div style={{textAlign: 'center'}}>
-                <p style={{fontSize:'0.8rem', fontWeight:'100', fontFamily:'system-ui'}}>©opyright 2023</p>
+                {/* <p style={{fontSize:'0.8rem', fontWeight:'100', fontFamily:'system-ui'}}>©opyright 2023</p> */}
                 </div>
         </div>
     </>
