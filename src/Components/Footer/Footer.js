@@ -20,7 +20,7 @@ const footer = () => {
                    <i style={{fontSize:'0.8rem'}}>-Qt</i>
                     <span style={{margin:'0 5px 0 10px'}}> <a className='brandHover' style={{color:'#cf8a0a'}} href="https://www.linkedin.com/in/yogesh-giri-405a04201/"><FontAwesomeIcon icon={faLinkedin} /></a> </span>
                     <span style={{margin:'0 8px 0 0px'}}><a className='brandHover' style={{color:'#cf8a0a'}} href="https://github.com/madm234"><FontAwesomeIcon icon={faGithub} /></a></span>
-                    <span><a className='brandHover' style={{color:'#cf8a0a'}} href="https://github.com/madm234"><FontAwesomeIcon icon={faDiscord} /></a></span>
+                    <span><a className='brandHover' style={{color:'#cf8a0a'}} href="https://discord.gg/EZBSeKGwFJ"><FontAwesomeIcon icon={faDiscord} /></a></span>
                    </div>
                 </div>
                 </div>

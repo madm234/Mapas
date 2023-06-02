@@ -13,7 +13,7 @@ const Navbar = () => {
       </nav>
 
       <div className="theme">
-        <img src="Images/github_octocat.png" alt="github" width="55px" />
+        <a target={'_blank'} rel="noreferrer" href="https://github.com/madm234/Mapas"><img src="Images/github_octocat.png" alt="github" width="55px" /></a>
       </div>
 
       <div className="theme2">

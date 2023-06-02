@@ -20,7 +20,7 @@ body{
 
 .theme img{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
 }
 
 ::selection{
