@@ -23,6 +23,18 @@ I'm assuming you know how to setup a react project. Will go direct to the follou
  
 ![image](https://github.com/madm234/Mapas/assets/88799492/c1fcab1d-dd4c-41d4-ad85-2615ce3572b1)
 
+2. You will be redirected directly to the results on click on any of the class you wanna search
+a) Information regarding the class including CSS based architecture of the building in which the class is present. 
+![image](https://github.com/madm234/Mapas/assets/88799492/3255a6f8-b0ac-4129-a37b-6a8f36bd80a3)
+
+
+![image](https://github.com/madm234/Mapas/assets/88799492/581a101f-348c-4cc3-8c06-5a27c68e1bbc)
+
+
+b)3D model of the floor in which the class is present.(Yup; initially one has to find the class in the whole floor by him/herself. However individual directions might be made to each class)
+ I - 'Spot the cloud for front or back Entrance to the floor!'. 
+![Screenshot 2023-06-03 181954](https://github.com/madm234/Mapas/assets/88799492/c84a1934-8eb0-4c3f-9b21-b7ca6fcb8bb9)
+
 
 ## Future Steps
 1. Individual pathway to each class[Model-based]
