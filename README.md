@@ -31,12 +31,13 @@ a) Information regarding the class including CSS based architecture of the build
 ![image](https://github.com/madm234/Mapas/assets/88799492/3255a6f8-b0ac-4129-a37b-6a8f36bd80a3)
 <br>
 
-![image](https://github.com/madm234/Mapas/assets/88799492/fbb6b5ef-8dab-4c1a-b8a0-5ed987523f9f)
-
 <br>
 <br>
 b) 3D model of the floor in which the class is present.(Yup; initially one has to find the class in the whole floor by him/herself. However individual directions might be made to each class)
 <br>
+![image](https://github.com/madm234/Mapas/assets/88799492/fbb6b5ef-8dab-4c1a-b8a0-5ed987523f9f)
+<br>
+
  I - 'Spot the cloud for फront or बack Entrance to the floor!'. 
  <br>
  <br>
