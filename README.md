@@ -31,7 +31,7 @@ a) Information regarding the class including CSS based architecture of the build
 ![image](https://github.com/madm234/Mapas/assets/88799492/3255a6f8-b0ac-4129-a37b-6a8f36bd80a3)
 <br>
 
-![image](https://github.com/madm234/Mapas/assets/88799492/2ba9fc20-c6cf-42d3-bc4f-341c140fac11)
+![image](https://github.com/madm234/Mapas/assets/88799492/fbb6b5ef-8dab-4c1a-b8a0-5ed987523f9f)
 
 <br>
 <br>
