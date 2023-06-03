@@ -19,7 +19,8 @@ To solve this problem , I had to revisit every element of the imported blender m
 I'm assuming you know how to setup a react project. Will go direct to the folloup part-
 1. Class can be searched either by just searching on the search box or selecting class manually from given list of classes from different buildings.  
 ![image](https://github.com/madm234/Mapas/assets/88799492/3e80b491-7529-424f-a740-e8c70a122e18)
-                                        OR
+ 
+ 
 ![image](https://github.com/madm234/Mapas/assets/88799492/c1fcab1d-dd4c-41d4-ad85-2615ce3572b1)
 
 
