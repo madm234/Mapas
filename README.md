@@ -45,7 +45,7 @@ b) 3D model of the floor in which the class is present.(Yup; initially one has t
  <br>
  
  
- ## फ and ब
+ # फ and ब
  On clicking this button(present at the bottom-right corner of the model), it redirects to the actual फront/बack paths image.
 <br>
 
