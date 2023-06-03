@@ -45,11 +45,21 @@ b) 3D model of the floor in which the class is present.(Yup; initially one has t
  <br>
  
  
- # फ and ब
+ ### `फ and ब`
  On clicking this button(present at the bottom-right corner of the model), it redirects to the actual फront/बack paths image.
 <br>
 
 	***Develop button is disabled in the About section. Will be enabled after active participation. DO KNOT GENERATE A PR WITHOUT ANY INFO!***
+
+## How to use models
+ ### `PC`
+ Rotate:- left click
+ Span:- Right click
+ 
+  ### `Mobile`
+ Rotate:- 2 fingers
+ Span:- 3 fingers
+
 
 ## Future Steps
 1. Individual pathway to each class[Model-based]
