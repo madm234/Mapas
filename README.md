@@ -54,10 +54,12 @@ b) 3D model of the floor in which the class is present.(Yup; initially one has t
 ## How to use models
  ### `PC`
  Rotate:- left click
+ <br>
  Span:- Right click
  
   ### `Mobile`
  Rotate:- 2 fingers
+ <br>
  Span:- 3 fingers
 
 
