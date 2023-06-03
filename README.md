@@ -38,14 +38,16 @@ a) Information regarding the class including CSS based architecture of the build
 b) 3D model of the floor in which the class is present.(Yup; initially one has to find the class in the whole floor by him/herself. However individual directions might be made to each class)
 <br>
  I - 'Spot the cloud for फront or बack Entrance to the floor!'. 
-![Screenshot 2023-06-03 181954](https://github.com/madm234/Mapas/assets/88799492/c84a1934-8eb0-4c3f-9b21-b7ca6fcb8bb9)
-
- ##फ and ब
+ <br>
+ <br>
+ <br>
+ 
+ 
+ ## फ and ब
  On clicking this button(present at the bottom-right corner of the model), it redirects to the actual फront/बack paths image.
 <br>
 
-	***Develop button is disabled in the About section. Will be enabled after active participation!***
- <sup>DO KNOT GENERATE A PR WITHOUT ANY INFO.</sup>
+	***Develop button is disabled in the About section. Will be enabled after active participation. DO KNOT GENERATE A PR WITHOUT ANY INFO!***
 
 ## Future Steps
 1. Individual pathway to each class[Model-based]
