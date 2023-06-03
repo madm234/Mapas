@@ -35,7 +35,8 @@ a) Information regarding the class including CSS based architecture of the build
 <br>
 b) 3D model of the floor in which the class is present.(Yup; initially one has to find the class in the whole floor by him/herself. However individual directions might be made to each class)
 <br>
-![image](https://github.com/madm234/Mapas/assets/88799492/fbb6b5ef-8dab-4c1a-b8a0-5ed987523f9f)
+<img width="960" alt="image" src="https://github.com/madm234/Mapas/assets/88799492/fbab786b-3f31-45a2-adde-33f2291ed422">
+
 <br>
 
  I - 'Spot the cloud for फront or बack Entrance to the floor!'. 
