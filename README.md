@@ -13,3 +13,11 @@ I chose spline cause it's easy here to make your model just like blender and imp
 Spline really got my back and I have made 80% models with spline again. Why again; cause blender models sucked in case of size and takes around 3-4 sec to load just 1 model at a time (I'm taking the case when internet speed is pretty good). Now just think of those poor connections.NIGHTMARES!! 
 
 To solve this problem , I had to revisit every element of the imported blender model to spline and take out the abnormal one and make it again from spline. 
+
+### Built With
+
+* [![React][React.js]][React-url]
+* [![Spline][spline.design.com]][Spline-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
